@@ -2,7 +2,7 @@
   "name": "simple-agent",
   "version": "1.0.0",
   "type": "module",
-  "main": "index.js",
+  "main": "index.ts",
   "license": "MIT",
   "dependencies": {
     "@ainetwork/adk": "^0.1.2",
@@ -10,10 +10,13 @@
     "@ainetwork/adk-provider-model-azure": "^0.1.2",
     "@ainetwork/adk-provider-model-gemini": "^0.1.1",
     "@modelcontextprotocol/sdk": "^1.17.0",
+    "dotenv": "^17.2.1",
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
     "tsx": "^4.20.3",
     "typescript": "^5.8.3"
-  }
+  },
+  "repository": "https://github.com/hyeonjjcomcom/slack-agent",
+  "author": "hyeonjjcomcom <hyeonjj@comcom.ai>"
 }
